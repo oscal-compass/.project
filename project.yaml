@@ -6,25 +6,27 @@ slug: "oscal-compass"
 name: "OSCAL-COMPASS"
 description: "The OSCAL COMPASS project is set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL (Open Security Controls Assessment Language) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL SDK and adoption by policy engines."
 type: "project"
-project_lead: "ancatri" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
-  - name: "#C06F3PEPNBW"
+project_lead: 
+   - "degenaro"
+   - "butler54"
+slack_channels:
+  - name: "#oscal-compass-trestle-agileauthoring-c2p"
     link: "https://cloud-native.slack.com/archives/C06F3PEPNBW"
     primary: true
-  - name: "#oscal-compass-trestle-agileauthoring-c2p"
-  - name: "#welcome-to-the-oscal-compass-community-repository"
 
 maturity_log:
   - phase: "sandbox"
     date: "2024-06-21T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/136" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/136"
 
 repositories:
   - "https://github.com/oscal-compass/compliance-trestle"
+  - "https://github.com/oscal-compass/compliance-to-policy"
+  - "https://github.com/oscal-compass/compliance-trestle-agile-authoring"
 
-website: "https://github.com/oscal-compass/community"
+website: "https://oscal-compass.dev/"
 
-artwork: "https://landscape.cncf.io/logos/oscal-compass-color-stacked.svg"
+artwork: "https://github.com/cncf/artwork/blob/main/projects/oscal-compass/icon/color/oscal-compass-color.png"
 
 adopters:
    path: "https://github.com/oscal-compass/community/blob/main/ADOPTERS.md"
@@ -34,28 +36,34 @@ package_managers:
 
 security:
   policy:
-    path: "https://github.com/oscal-compass/compliance-trestle/blob/develop/SECURITY.md"
+    path: "https://github.com/oscal-compass/community/blob/main/SECURITY.md"
   contact:
     advisory_url: "https://github.com/oscal-compass/compliance-trestle/security/advisories/new"
 
 governance:
   contributing:
-    path: "https://github.com/oscal-compass/compliance-trestle/blob/develop/CONTRIBUTING.md"
+    path: "https://github.com/oscal-compass/community/blob/main/CONTRIBUTING.md"
   code_of_conduct:
-    path: "https://github.com/oscal-compass/.github/blob/main/CODE_OF_CONDUCT.md"
-
+    path: "https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md"
+  governance_doc:
+    path: "https://github.com/oscal-compass/community/blob/main/GOVERNANCE.md"
+  roles_and_teams:
+    path: "https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md"
+  contributor_ladder:
+    path: "https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md"
+    
 legal:
   license:
-    path: "https://github.com/oscal-compass/compliance-trestle/blob/develop/LICENSE"
+    path: "https://github.com/oscal-compass/community/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
 documentation:
   readme:
-    path: "https://github.com/oscal-compass/compliance-trestle/blob/develop/README.md"
+    path: "https://github.com/oscal-compass/community/blob/main/README.md"
 
 landscape:
   category: "Provisioning"
